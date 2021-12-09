@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro Purchase</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="mx-auto" style="width: 80%">
+        <div class="grid grid-cols-2 gap-8 mt-5">
+            <div>
+                <img src="images/mac.png" alt="">
+            </div>
+            <div>
+                <h1 class="text-4xl">Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                <p class="mt-3">Apple-designed M1 chip for a giant leap in CPU, GPU, and machine learning performance
+                    Get more done with up to 20 hours of battery life, the longest ever in a Mac
+                    8-core CPU delivers up to 2.8x faster performance to fly through workflows quicker than ever
+                </p>
+
+                <!-- Memomry -->
+                <p class="font-bold mt-12 mb-2">Memory</p>
+
+
+                <!-- 8GB Memory button  -->
+                <button id="8gb-btn" class="border-2 border-gray-400 p-1 mr-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">8GB
+                    unified
+                    memory</button>
+                <!-- 16GB Memory Button  -->
+                <button id="16gb-btn" class="border-2 border-gray-400 p-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">16GB
+                    unified
+                    memory</button>
+
+
+                <!-- Storage  -->
+                <p class="font-bold mt-12 mb-2">Storage</p>
+
+                <!-- 256GB stoage button  -->
+                <button id="256gb-btn"
+                    class="border-2 border-gray-400 p-1 mr-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">256GB SSD
+                    storage</button>
+                <!-- 512GB storage button  -->
+                <button id="512gb-btn"
+                    class="border-2 border-gray-400 mr-1 p-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">512GB SSD
+                    storage</button>
+                <!-- 1TB storage buttuon  -->
+                <button id="1tb-btn" class="border-2 border-gray-400 p-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">1TB SSD
+                    storage</button>
+
+                <!-- Delivery option  -->
+                <p class="font-bold mt-12 mb-2">Choose your delivery option</p>
+
+                <!-- Free charge button  -->
+                <button id="free" class="border-2 border-gray-400 p-1 mr-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">Friday,
+                    Aug 25 FREE
+                    Prime Delivery</button>
+
+                <!-- $20 button  -->
+                <button id="paid" class="border-2 border-gray-400 p-1 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-gray-900">Friday, Aug 21
+                    Delivery
+                    charge $20</button>
+
+
+                <p class="font-bold mt-12 mb-2">Best Price<span class="ml-32">$<span>1299</span> </span> </p>
+                <hr style="width: 60%;">
+
+                <!-- Extra Memory cost -->
+                <p class="font-bold mb-2">Extra Memory Cost<span class="ml-14">$<span id="memory-cost">0</span> </span>
+                </p>
+                <hr style="width: 60%;">
+                <!-- Extra storage cost  -->
+                <p class="font-bold mb-2">Extra Storage Cost<span class="ml-16">$<span id="storage-cost">0</span>
+                    </span> </p>
+                <hr style="width: 60%;">
+
+                <!-- Delivery charge  -->
+                <p class="font-bold mb-4">Delivery charge<span class="ml-20">$<span id="delivery-cost">0</span> </span>
+                </p>
+                <hr class="border-gray-900" style="width: 60%;">
+
+                <!-- Total price  -->
+                <p class="font-bold mb-4">Total Price<span class="ml-28">$<span id="total-price">1299</span> </span>
+                </p>
+
+                <p>Add Promo Code</p>
+                <input id="promo-input" class=" h-8 border-gray-900 border rounded p-2" type="text" name="" id="">
+                <button id="apply-btn" class="h-8 text-white bg-red-500 pl-2 pr-2 rounded hover:bg-red-600 focus:ring-2 focus:ring-gray-900">Apply</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-8">
+
+        <hr>
+        <h1 class="text-5xl font-semibold text-center">Total: $<span id="final-price">1299</span></h1>
+    </footer>
+
+    <script src="Js/app.js"></script>
+</body>
+
+</html>
